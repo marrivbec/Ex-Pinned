@@ -36,6 +36,10 @@ const loadModel = (sequelize, DataTypes) => {
       allowNull: false,
       type: DataTypes.STRING
     },
+    pinnedAt: {
+      type: DataTypes.BOOLEAN,
+      allowNull: true
+    },
     postalCode: {
       allowNull: false,
       type: DataTypes.STRING

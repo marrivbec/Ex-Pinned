@@ -18,6 +18,10 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING
       },
+      pinnedAt: {
+        type: Sequelize.BOOLEAN,
+        allowNull: true
+      },
       postalCode: {
         allowNull: false,
         type: Sequelize.STRING
